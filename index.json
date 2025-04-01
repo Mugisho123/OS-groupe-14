@@ -1,0 +1,110 @@
+{
+    "dossier" : {    
+        "document" : {
+            "meta" : {
+                "date_de_creation" : "2025-03-31",
+                "heure_de_creation" : "19:00",
+                "size" : "25ko",
+                "premission" : "rwx"
+            },
+            "dossier" : {},
+            "fichier" : {
+                "rapport.txt" : {
+                    "content" : "contenu du rapport de projet.",
+                    "meta" : {
+                        "date_de_creation" : "2025-03-31",
+                        "heure_de_creation" : "19:05",
+                        "size" : "20ko",
+                        "premission" : "rwx"
+                    }
+                }
+            }
+        }
+    },
+    "fichier" : {
+        "note.txt" : {
+            "content" : "ceci est une note",
+            "meta" : {
+                "date_de_creation" : "2025-03-31",
+                "heure_de_creation" : "19:10",
+                "size" : "32ko",
+                "premission" : "rwx"
+            }
+        }
+    },
+    "image" : {
+        "meta" : {
+            "date_de_creation" : "2025-03-31",
+            "heure_de_creation" : "19:15",
+            "size" : "1.5MO",
+            "premission" : "rwx"
+        },
+        "dossier" : {},
+        "fichier" : {
+            "photo.jpg" : {
+                "content" : "Binary_data",
+                "meta" : {
+                    "date_de_creation" : "2025-03-31",
+                    "heure_de_creation" : "19:20",
+                    "size" : "1MO",
+                    "premission" : "rwx"
+                }
+            }
+        }
+    },
+    "fichiers" : {
+        "readme.md":{
+            "content" : {
+                "nom" : "Bienvenue dans notre travail du groupe 14",
+                "membres_du_groupe" : "VICTOIRE KUDERHA, JOSEPHINE LOLI, DAVID KAKIRA , DAVID KAMATE , Vital Matabaro"
+            },
+            "meta" :{
+                "date_de_creation" : "2025-03-31",
+                "heure_de_creation" : "19:25",
+                "size" : "11Ko",
+                "premission" : "rwx"
+            }
+        }
+    },
+    "commandes" : {
+        "creer_dossier" : {
+            "nom" : "nouveau_dossier",
+            "chemin" : "/document",
+            "meta" : {
+                "date_de_creation" : "2025-03-31",
+                "heure_de_creation" : "19:30",
+                "size" : "47Ko",
+                "premission" : "rwx"
+            }
+        },
+        "creer_fichier" : {
+            "nom" : "nouveau_fichier.txt",
+            "chemin" : "/document",
+            "content" :"ceci est un nouveau fichier",
+            "meta" : {
+                "date_de_creation" : "2025-03-31",
+                "heure_de_creation" : "19:35",
+                "size" : "13ko",
+                "premission" : "rwx"
+            }
+        },
+        "modifier_fichier" : {
+            "nom" : "note.txt",
+            "chemin" : "/document",
+            "nouveau_conten" : "ceci est une modification de la note"
+        },
+        "supprimer_fichier" : {
+            "nom" : "rapport.txt",
+            "chemin" : "/document"
+        },
+        "copier_fichier" : {
+            "nom" : "note.txt",
+            "source" : "/document",
+            "destination" : "/document/projets"
+        },
+        "lire_fichier" : {
+            "nom" : "readme.md",
+            "chemin" : "/"
+        }
+    }
+}
